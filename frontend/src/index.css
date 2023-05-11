@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+body {
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+.header {
+    background-color: darkslateblue;
+    color: white;
+    margin:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+
+.header > h1 {
+    font-family: 'Pangolin', 'Inter', sans-serif;
+    margin-left:auto;
+}
+  
+.walletconnect {
+    margin-left:auto;
+}
+
+.walletconnect > button {
+    background-color: black;
+    color:white;
+    margin-right:12px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    position:absolute;
+    top:0px;
+    width:100vw;
+    word-wrap: break-word;
+    font-size:4.3vh;
+    z-index: -1;
+}
+
+.namechange {
+    width: 25vw;
+    background-color: rgba(0, 0, 0, 0.774);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40vh;
+}
+
+.namechange > h1 {
+    color: white;
+}
